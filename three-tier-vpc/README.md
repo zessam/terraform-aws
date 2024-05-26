@@ -4,7 +4,7 @@
 Brief description of your project.
 
 ## Architecture
-[AWS ](https://github.com/zessam/terraform-aws/assets/72177003/e7c51519-1a9a-4c7b-887d-42400f81804a)
+ ![ Alt Architecture](AWS.png)
 
 ### Public Subnets
 - These subnets host resources that need to be accessible from the internet.
@@ -20,9 +20,11 @@ Brief description of your project.
 
 ## Usage
 1. Initialize Terraform:
-   ```sh
+ ```sh
    terraform init
+ ```  
 
 2. Apply the Configuration:
  ```sh
    terraform apply
+ ```
